@@ -16,9 +16,9 @@ fun main() {
     var b: Byte = 8
     var s: Short = 16
     var i: Int = 32
-    var l: Long = 64
+    var l: Long = 64L // L is required for Long
     // can use _ to make it more readable
-    var l2 = 123_456_789_123_456_789
+    var l2 = 123_456_789_123_456_789L
     var i2 = 123_456_789
     println(l2) // prints 123456789123456789
 
