@@ -46,9 +46,11 @@ fun main() {
     plus += 1 // 7
     val minus = 4 - 2 // 2
     val multiply = plus * minus // 14
-    // casting
-    val divide = multiply / 2.0 // 7.0 double
-    val divide2 = (multiply / 2.0).toInt() // 7 int
+
+    // casting using as keyword
+    val divide = multiply as Double / 2 // 7.0
+    // safe casting using as?
+    val stam: String? = multiply as? String // null
 
     //Comparison Operators (==, !=, >, <, >=, <=) like in Java
     val isEqual = 5 == 5 // true

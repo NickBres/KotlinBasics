@@ -49,6 +49,7 @@ fun main(){
 
 // Class syntax
 // class ClassName(args) { ... } - () is optional it is used to pass arguments to the primary constructor
+// classes are public and final by default
 class Phone(osName: String = "No os",brand: String = "No brand",model: String = ""){
     // Member Variables/Properties
     // use lateinit to initialize properties later and not make them nullable
